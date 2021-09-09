@@ -1,4 +1,13 @@
 def multiples(n):
+    """ 
+    Determine if the multiple is three or five?
+
+    Args:
+        n (int): Input integer
+
+    Returns:
+        boolean: If the number is divisible by 3 or 5, it returns True, otherwise it returns False.
+    """
     if n % 3 == 0 or n % 5 == 0:
         return True
     return False
